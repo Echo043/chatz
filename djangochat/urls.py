@@ -6,4 +6,4 @@ urlpatterns = [
     path('', include('core.urls')),
     path('rooms/', include('room.urls')),
     path('admin/', admin.site.urls),
-] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)pip 
+] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
